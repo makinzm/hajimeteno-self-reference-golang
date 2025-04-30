@@ -1,0 +1,1 @@
+# hajimeteno-self-reference-golang
