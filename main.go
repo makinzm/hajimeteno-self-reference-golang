@@ -5,7 +5,7 @@ import (
 )
 
 type badtype struct {
-  Self badtype
+  Self *badtype
 }
 
 type some struct {
