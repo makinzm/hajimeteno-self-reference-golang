@@ -4,6 +4,10 @@ import (
   "go.uber.org/zap"
 )
 
+type badtype struct {
+  Self badtype
+}
+
 type some struct {
     parent *st
 }
